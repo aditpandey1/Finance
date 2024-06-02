@@ -403,6 +403,7 @@ font-weight: bold;
     position: fixed;
     top:3%;
     right: 13%;
+	  width:10rem;
   }
   #hero{
     width: 100%;
