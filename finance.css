@@ -412,9 +412,15 @@ font-weight: bold;
   #hero div{
     width:100%;
   }
+	.hero-img{
+		margin-top:25px;
+	}
   .hero-img img{
     width: 100%;
   }
+	.hero-desc h1{
+		margin-top:20px;
+	}
   .hero-desc button{
     margin-right: 0px;
     margin-left: 10px;
@@ -424,7 +430,7 @@ font-weight: bold;
   }
   #features{
     width: 100%;
-    padding: 0;
+    padding: 15px;
   }
   #features div{
     width: 100%;
