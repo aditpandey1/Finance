@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/2bfc5e779f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="finance.css">
+        <title>Finance Application</title>
+    </head>
+    <body>
+        <div id="percentage"></div>
+        <header>
+            <ul class="horizontal-list">
+                <li><a href="#hero" class="list-item" data-value="hero"><i class="fa-solid fa-fire" style="color: #f5390a;"></i>Uifry</a></li>
+                <li><a href="#hero" class="list-item" data-value="hero">Home</a></li>
+                <li><a href="#features" class="list-item" data-value="features">Features</a></li>
+                <li><a href="#screenshot" class="list-item" data-value="screenshot">ScreenShots</a></li>
+                <li><a href="#contact" class="list-item" data-value="contact">Contact</a></li>
+            </ul>
+            <div class="dropdown">
+              <div id="hamburger-icon">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <ul class="dropdown-list">
+                <li><a href="#hero" class="list-item" data-value="hero"><i class="fa-solid fa-fire" style="color: #f5390a;"></i>Uifry</a></li>
+                <li><a href="#hero" class="list-item" data-value="hero">Home</a></li>
+                <li><a href="#features" class="list-item" data-value="features">Features</a></li>
+                <li><a href="#screenshot" class="list-item" data-value="screenshot">ScreenShots</a></li>
+                <li><a href="#contact" class="list-item" data-value="contact">Contact</a></li>
+              </ul>
+            </div>
+            <button>Download</button>
+        </header>
+        <main>
+            <section id="hero">
+                
+            <div class="hero-desc">
+               <h1>Make the Best Financial decision</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Morbi lacinia nisl risus, ut bibendum massa vestibulum quis. Curabitur eleifend est ac purus ornare semper.
+                 Nullam id imperdiet diam. Mauris risus justo, faucibus et arcu at, dignissim luctus sem. 
+                 In pretium eros sit amet magna hendrerit, sed scelerisque leo placerat. </p>
+                 <button>Get Started <i class="fa-sharp fa-thin fa-arrow-right" style="color: #fcfcfc;"></i></button>
+                 <button style="background-color: white; color: black;"> <i class="fa-solid fa-circle-play" style="color: #0a0a0a;"></i>Watch Video </button>
+            </div>
+            <div class="hero-img">
+               <img src="https://www.sketchappsources.com/resources/source-image/finance-app-concept-rajeshrathod.png">
+            </div>
+
+            </section>
+            <section id="features">
+              <div class="hero-img">
+                 <img src="https://blog.cgify.com/wp-content/uploads/2020/12/how_to_create_a_personal_finance_app_3.jpg">
+              </div> 
+              <div class="feature-disc">
+                
+                <h1>List of Features</h1>
+                <h3><i class="fa-regular fa-star"></i>Budgeting Intervals</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Morbi lacinia nisl risus risus justo, faucibus et arcu at, dignissim luctus sem.</p>
+                <h3><i class="fa-solid fa-cube"></i>Budgeting Intervals</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Morbi lacinia nisl risus risus justo, faucibus et arcu at, dignissim luctus sem.</p>
+                <h3><i class="fa-regular fa-gear"></i>Budgeting Intervals</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Morbi lacinia nisl risus risus justo, faucibus et arcu at, dignissim luctus sem.</p>    
+              </div>
+            </section>
+            <section id="screenshot">
+                <h1 class="section-heading"><i class="fa-solid fa-camera"></i>&nbsp;&nbsp;App ScreenShots</h1>
+             
+                 <div class="row" style="display: flex; justify-content: space-around; flex-wrap: wrap; ">
+                    <div class="column">
+                      <img src="https://pbs.twimg.com/media/GGtwqnEXAAAR2et.jpg:large" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                      <img src="https://pbs.twimg.com/media/GGtwqnEXAAAR2et.jpg:large" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                      <img src="https://pbs.twimg.com/media/GGtwqnEXAAAR2et.jpg:large" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                      <img src="https://pbs.twimg.com/media/GGtwqnEXAAAR2et.jpg:large" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                    </div>
+                  </div>
+                  
+                
+                  <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                  
+                      <div class="mySlides">
+                        <div class="numbertext">1 / 4</div>
+                        <img src="https://media.licdn.com/dms/image/C4E12AQEirzPSHmli9w/article-cover_image-shrink_720_1280/0/1635178887672?e=2147483647&v=beta&t=0rlt9N9hI0xaJrlnEH9BEjaqPyurDSJARcX6-Ykt4XA" style="width:100%">
+                      </div>
+                  
+                      <div class="mySlides">
+                        <div class="numbertext">2 / 4</div>
+                        <img src="https://www.zohowebstatic.com/sites/zweb/images/creator/app-deck/financial-management-software-ss3.png" style="width:100%">
+                      </div>
+                  
+                      <div class="mySlides">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="https://media.licdn.com/dms/image/C4E12AQEirzPSHmli9w/article-cover_image-shrink_720_1280/0/1635178887672?e=2147483647&v=beta&t=0rlt9N9hI0xaJrlnEH9BEjaqPyurDSJARcX6-Ykt4XA" style="width:100%">
+                      </div>
+                  
+                      <div class="mySlides">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="https://www.zohowebstatic.com/sites/zweb/images/creator/app-deck/financial-management-software-ss3.png" style="width:100%">
+                      </div>
+                  
+                      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  
+                     
+                      <div class="caption-container">
+                        <p id="caption"></p>
+                      </div>
+                    </div>
+                  </div>
+
+            </section>
+            <section id="contact">
+                <h1 class="section-heading margin-bottom5">
+                    <span style="color:white;"><i class="fa-solid fa-address-book"></i></span>
+                    <span style="color:white;">CONTACT</span>
+                </h1>
+                <div id="contact-content">
+                    <div>
+                        <form>
+                            <input type="text" name="name" placeholder ="Your Name">
+                            <input type="email" name="email" placeholder="Your Email">
+                            <textarea name="message" rows="3" cols="3" placeholder="Message"></textarea>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                    <div id="address-getintouch">
+                        <div id="get-in-touch">
+                            <h2>Get in Touch</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Morbi lacinia nisl risus, ut bibendum massa vestibulum quis. Curabitur eleifend est ac purus ornare semper.
+                                 Nullam id imperdiet diam.</p>
+                        </div>
+                        <div id="address">
+                            <h2>My Address</h2>
+                            <div>
+                               <span><i class="fa-solid fa-location-dot"></i></span>
+                               <span> Delhi,India</span>
+                            </div>
+                            <div>
+                                <span><i class="fa-solid fa-mobile"></i></span>
+                                <span> 9821166205</span>
+                            </div>
+                            <div>
+                                <span><i class="fa-solid fa-envelope"></i></span>
+                                <span> aditpandey96@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </section>
+        </main>
+
+        <script type="text/javascript" src="finance.js" >
+           
+           
+            </script>
+    </body>
+</html>
